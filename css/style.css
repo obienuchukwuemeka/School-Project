@@ -115,16 +115,15 @@ header {
    ============================================ */
 
 /* Hero background container with image overlay */
+/* Hero background container with image overlay */
 .container {
-    background: linear-gradient(rgba(65, 105, 225, 0.3), rgba(65, 105, 225, 0.1)), 
-                url(assets/land/landing.png) no-repeat center/cover;
-    /* Linear gradient creates blue overlay on top of image */
-    min-height: 100vh; /* Full viewport height */
-    width: 100%;
-    position: relative;
-    margin-bottom: 50px;
+background: linear-gradient(rgba(65, 105, 225, 0.3), rgba(65, 105, 225, 0.3)),
+            url("../assets/landing.png") center/cover no-repeat;
+min-height: 100vh;
+width: 100%;
+position: relative;
+margin-bottom: 50px;
 }
-
 /* Hero text content container */
 .hero-text {
     display: flex;
@@ -139,6 +138,7 @@ header {
 /* Main hero heading */
 .hero-text h1 {
     color: white;
+    align-items: center;
     font-size: 80px;
     margin-bottom: 15px;
 }
@@ -495,7 +495,7 @@ header {
     margin: 100px auto;
     padding: 100px 50px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                url(assets/meeting.png) no-repeat center/cover;
+                url(../assets/meeting.png) no-repeat center/cover;
     /* Dark overlay makes text readable on image */
     border-radius: 20px;
     text-align: center;
@@ -605,7 +605,7 @@ header {
     width: 100%;
     height: 50vh; /* Half viewport height */
     background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-                url(assets/graduates.png) no-repeat center/cover;
+                url(../assets/landing.png) no-repeat center/cover;
     color: white;
     position: relative;
 }
@@ -622,7 +622,7 @@ header {
 .sub-header-text h1 {
     font-size: 50px;
     font-weight: 600;
-    color: whiteu;
+    color: white;
 }
 
 /* ============================================
